@@ -6,7 +6,7 @@
 //  Copyright © 2017 cntt12. All rights reserved.
 //
 
-class Movies {
+class Movie {
     var overview: String?
     var title: String?
     var poster_Path: String?

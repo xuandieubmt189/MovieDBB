@@ -14,7 +14,7 @@
 		B568B20E1EC6F195008052EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B568B20C1EC6F195008052EA /* LaunchScreen.storyboard */; };
 		B568B2181EC6F2C2008052EA /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = B568B2171EC6F2C2008052EA /* Movie.swift */; };
 		B568B21A1EC6F57D008052EA /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B568B2191EC6F57D008052EA /* MovieCell.swift */; };
-		B568B2201EC6FEA2008052EA /* GetMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = B568B21F1EC6FEA2008052EA /* GetMovie.swift */; };
+		B568B2201EC6FEA2008052EA /* MovieLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B568B21F1EC6FEA2008052EA /* MovieLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		B568B20F1EC6F195008052EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B568B2171EC6F2C2008052EA /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		B568B2191EC6F57D008052EA /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
-		B568B21F1EC6FEA2008052EA /* GetMovie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GetMovie.swift; path = ../GetMovie.swift; sourceTree = "<group>"; };
+		B568B21F1EC6FEA2008052EA /* MovieLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MovieLoader.swift; path = ../MovieLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +63,7 @@
 				B568B2161EC6F293008052EA /* DataMovies */,
 				B568B2031EC6F195008052EA /* AppDelegate.swift */,
 				B568B2051EC6F195008052EA /* ViewController.swift */,
-				B568B21F1EC6FEA2008052EA /* GetMovie.swift */,
+				B568B21F1EC6FEA2008052EA /* MovieLoader.swift */,
 				B568B2071EC6F195008052EA /* Main.storyboard */,
 				B568B20A1EC6F195008052EA /* Assets.xcassets */,
 				B568B20C1EC6F195008052EA /* LaunchScreen.storyboard */,
@@ -153,7 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B568B2201EC6FEA2008052EA /* GetMovie.swift in Sources */,
+				B568B2201EC6FEA2008052EA /* MovieLoader.swift in Sources */,
 				B568B2061EC6F195008052EA /* ViewController.swift in Sources */,
 				B568B2181EC6F2C2008052EA /* Movie.swift in Sources */,
 				B568B21A1EC6F57D008052EA /* MovieCell.swift in Sources */,
@@ -319,7 +319,6 @@
 				B568B2141EC6F195008052EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
